@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Detalles - Innovación Deportiva</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        :root {
+            --dark-gray: #364041;
+            --accent-blue: #0d6efd;
+        }
+
+        body {
+            background-color: #f4f7f6;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        .logo-container {
+            display: flex;
+            align-items: center;
+            padding: 20px;
+            background: var(--dark-gray);
+            color: white;
+        }
+
+        .logo-img img {
+            width: 60px;
+            height: 60px;
+            object-fit: cover;
+            border-radius: 10px;
+            border: 2px solid white;
+            background: white;
+            padding: 3px;
+            margin-right: 15px;
+        }
+
+        .img-innovacion {
+            border: 15px solid white;
+            border-bottom-width: 50px;
+            border-radius: 5px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.15);
+            transition: transform 0.3s ease;
+        }
+
+        .img-innovacion:hover {
+            transform: scale(1.02);
+        }
+
+        .video-section {
+            background: var(--dark-gray);
+            padding: 50px 0;
+            border-radius: 20px;
+            margin-top: 40px;
+        }
+
+        .footer-simple {
+            text-align: center;
+            padding: 30px;
+            color: #777;
+        }
+    </style>
+</head>
+<body>
+
+<nav class="logo-container">
+    <div class="container d-flex align-items-center">
+        
+        <div class="logo-img">
+            <img src="id.png" alt="Logo Innovación Deportiva">
+        </div>
+
+        <h2 class="m-0 h4">INNOVACIÓN DEPORTIVA</h2>
+        <a href="index.html" class="btn btn-outline-light btn-sm ms-auto">Volver al inicio</a>
+    </div>
+</nav>
+
+<div class="container mt-5">
+    <div class="row align-items-center">
+        <div class="col-md-5 text-center mb-4 mb-md-0">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcREwD8GHTknRbwCAQL0XnqgWdSdVdG2RN8daw&s"
+                 alt="Innovación Tecnológica"
+                 class="img-fluid img-innovacion">
+            <p class="mt-2 text-muted small"><em>Tecnología de alto rendimiento 2026</em></p>
+        </div>
+
+        <div class="col-md-7">
+            <span class="badge bg-primary mb-2">CONOCE MÁS</span>
+            <h1 class="fw-bold">¿Qué es la Innovación Deportiva?</h1>
+            <p class="lead text-secondary">
+                Es la aplicación de ciencia avanzada para superar los límites del potencial humano.
+            </p>
+            <p>
+                En nuestro centro, la <strong>Innovación Deportiva</strong> no es solo una palabra; es un proceso donde combinamos la biomecánica, el análisis de datos y materiales aeroespaciales para crear equipo que reduce el riesgo de lesiones y maximiza la velocidad.
+            </p>
+            <p>
+                Desde textiles que regulan la temperatura corporal automáticamente hasta calzado con retorno de energía mediante fibra de carbono, estamos comprometidos con llevar tu entrenamiento al siguiente nivel tecnológico.
+            </p>
+        </div>
+    </div>
+
+    <div class="video-section text-center text-white">
+        <div class="container">
+            <h3 class="mb-4">Mira la tecnología en acción</h3>
+            <div class="row justify-content-center">
+                <div class="col-lg-8">
+                    <div class="ratio ratio-16x9 shadow-lg">
+                        
+                        <!-- VIDEO CORREGIDO -->
+                        <iframe 
+                            src="https://www.youtube.com/embed/ULf_nhiWms8?autoplay=1&mute=1"
+                            title="Innovación Deportiva"
+                            class="w-100 h-100"
+                            loading="lazy"
+                            referrerpolicy="strict-origin-when-cross-origin"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                            allowfullscreen>
+                        </iframe>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<footer class="footer-simple">
+    <p>© 2026 Innovación Deportiva | Proyecto de Desarrollo</p>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
